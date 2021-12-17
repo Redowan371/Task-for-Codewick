@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #282828;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #30fbef;
+}
+/**********************
+Menu Style Start
+**********************/
+/**********************
+Menu Style End
+**********************/
+
+/**********************
+Banner Style Start
+**********************/
+#banner {
+  margin-bottom: 164px;
+}
+.banner-text h1 {
+  color: #30fbef;
+  font-size: 80px;
+  line-height: 110%;
+}
+.banner-text p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  padding-top: 40px;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-img img {
+  width: 100%;
+}
+button {
+  margin-top: 18px;
+  font-size: 24px;
+  width: 271px;
+  height: 76px;
+  left: 240px;
+  top: 678px;
+  outline: none;
+  border: none;
+  color: white;
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+/**********************
+Banner Style End
+**********************/
+
+/**********************
+Data Style Start
+**********************/
+#data {
+  margin-bottom: 164px;
+}
+.data-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 70px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.data-text {
+  padding-left: 40px;
+}
+.data-text h1 {
+  font-size: 40px;
+  line-height: 130%;
+  color: #30fbef;
+}
+.data-text p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+  padding-top: 40px;
+}
+/**********************
+Data Style End
+**********************/
+
+/**********************
+Feature Style Start
+**********************/
+/**********************
+Feature Style End
+**********************/
+
+/**********************
+App Style Start
+**********************/
+#app {
+  margin-bottom: 107px;
+}
+.app-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 70px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.app-img img {
+  width: 500px;
+  height: 500px;
+}
+
+/**********************
+App Style End
+**********************/
+/**********************
+Subscribe Style Start
+**********************/
+.subs-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subs-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #30fbef;
+  padding-bottom: 20px;
+}
+.subs-text p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+}
+.subs-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  height: 80px;
+  line-height: 80px;
+  width: 610px;
+}
+.small-btn {
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 160%;
+}
+.subs-btn-text {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 160%;
+}
+/**********************
+Subscribe Style End
+**********************/
+hr {
+  margin: 72px 0;
+  background: #9c69e2;
+  opacity: 0.2;
+  box-shadow: 0px -7px 0px rgba(255, 255, 255, 0.19);
+  height: 2px;
+}
+/**********************
+Free Style Start
+**********************/
+#free {
+  margin-bottom: 144px;
+}
+.free-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.free-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #30fbef;
+  padding-bottom: 20px;
+}
+.free-text p {
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+}
+/**********************
+Free Style End
+**********************/
+
+/**********************
+Footer Style Start
+**********************/
+#footer {
+  margin-bottom: 93px;
+  color: #30fbef;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.footer-text p {
+  margin: 40px 0;
+}
+.footer-text h1 {
+  padding-left: 5px;
+  font-size: 26px;
+}
+ul li {
+  padding: 10px 0;
+}
+.footer-about p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.footer-help p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.socail-icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.facebook-icon {
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-right: 10px;
+}
+.facebook-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.twitter-icon {
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-right: 10px;
+}
+.twitter-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.instagram-icon {
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-right: 10px;
+}
+.instagram-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**********************
+Footer Style End
+**********************/
+.copy-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.copy-icon {
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-right: 10px;
+}
+.copy-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.copy-text {
+  color: #30fbef;
+}
