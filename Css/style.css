@@ -278,15 +278,6 @@ Testimonial Style Start
   transition: margin 1s ease;
   align-items: center;
 }
-.testimonial-section .testi-item {
-  padding: 30px;
-  position: relative;
-}
-.testimonial-section .testi-item i {
-  position: absolute;
-  font-size: 30px;
-  opacity: 0.1;
-}
 .testimonial-section .testi-item i.left {
   left: 5px;
   top: 5px;
